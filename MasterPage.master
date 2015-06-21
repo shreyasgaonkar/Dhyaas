@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Jquerry/css/style2.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <!--<title>Dhyaas | First Marathi 3D Stereoscopic Movie </title> -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+      
+
+        <meta name="keywords" content="Dhyaas, Chitramandaar.com, Chitramandaar, Marathi,3D, Movie,First,Ever">
+        <meta name="title" content="Dhyaas | First Marathi 3D Stereoscopic Movie"/>
+    
+        <meta name="description" content="Chitramandaar's - Dhyaas is the first Marathi 3D Movie ever made.Check out more here. " />
+        <meta name="keywords" content="Dhyaas, Chitramandaar.com, Chitramandaar, Marathi,3D, Movie,First,Ever,kpE5OtGa2kdz2FIBepBlkY-w7Ls" />
+        <meta name="author" content="Shreyas Gaonkar" />
+        <meta name="alexaVerifyID" content="kpE5OtGa2kdz2FIBepBlkY-w7Ls" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="Jquerry/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="Jquerry/css/style2.css" />
+
+        
+
+
+
+
+
+        <!-- kpE5OtGa2kdz2FIBepBlkY-w7Ls --> <!-- Alexa SEO CODE-->
+        <meta name="alexaVerifyID" content="kpE5OtGa2kdz2FIBepBlkY-w7Ls" />
+       
+
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ 
+   <div class="container">
+          <!--  <div class="header">
+                <a href="http://tympanus.net/Tutorials/LateralOnScrollSliding/">
+                    <strong>&laquo; Previous Demo: </strong>Lateral On-Scroll Sliding with jQuery
+                </a>
+                <span class="right">
+                    <a href="http://tympanus.net/codrops/2011/12/07/splash-and-coming-soon-page-effects-with-css3/">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+                <div class="clr"></div>
+            </div> -->
+           
+			
+			<div class="sp-container">
+				<div class="sp-content">
+					
+
+
+
+				</div>
+			</div>
+        </div>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
